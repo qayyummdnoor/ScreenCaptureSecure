@@ -21,8 +21,8 @@ RCT_EXPORT_METHOD(enableSecure)
                                                     queue:mainQueue
                                                 usingBlock:^(NSNotification *note) {
                                                     // executes after screenshot
-                                                    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"주의"
-                                                                                message:@"작품을 캡쳐한 스크린샷을\n온라인, 오프라인에 무단으로\n공유 및 배포할 경우 법적인\n제재를 받을 수 있습니다."
+                                                    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Caution"
+                                                                                message:@"You may be subject to\nlegal sanctions for sharing\nand distributing screenshots\nof your work online or\noffline without permission."
                                                                                 preferredStyle:UIAlertControllerStyleAlert];
 
                                                     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault
