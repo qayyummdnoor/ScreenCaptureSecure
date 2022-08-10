@@ -8,6 +8,10 @@
 
 `$ react-native link react-native-screen-capture-secure`
 
+### Changes
+
+`Change ios alert to english`
+
 ## Usage
 ```javascript
 import ScreenCaptureSecure from 'react-native-screen-capture-secure';
