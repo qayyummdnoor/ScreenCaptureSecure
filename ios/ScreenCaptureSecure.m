@@ -25,7 +25,7 @@ RCT_EXPORT_METHOD(enableSecure)
                                                                                 message:@"You may be subject to\nlegal sanctions for sharing\nand distributing screenshots\nof your work online or\noffline without permission."
                                                                                 preferredStyle:UIAlertControllerStyleAlert];
 
-                                                    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault
+                                                    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"Confirm" style:UIAlertActionStyleDefault
                                                     handler:^(UIAlertAction * action) {}];
 
                                                     [alert addAction:defaultAction];
